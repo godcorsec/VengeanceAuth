@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `User`
+(
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    username VARCHAR(16) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    token VARCHAR(255) NOT NULL,
+    inviteCode VARCHAR(16),
+    accountCreationDate VARCHAR(255) NOT NULL
+)
